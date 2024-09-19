@@ -69,6 +69,11 @@ To run the test cases:
     pytest test_experiment.py 
 
 
-### The rq.sh Results
+### The rq.sh Results and Conclusion
 <img width="817" alt="Screen Shot 2024-09-19 at 12 33 52 AM" src="https://github.com/user-attachments/assets/86b95bdb-520d-4ff3-863c-a95ebafd6db6">
+
+These are the results from the rq.sh results where it contains rows such as RANKS where it tells you how often treatments are in rank 0,1,2,etc, EVALS which is the budgets used to achieve those ranks, and DELTAS which is just the formula, 100*(asIs - now)/asIs change, to get the results. The results presented in this table gives us an asIs output where it represents the baseline performance without any modifications to the data or method. These results shows us that exploitation and exploration strategies with b=True (branching) are generally more effective than random guessing which random guessing was the 2nd hypothesis. Since we observed JJR1, we confirm their hypothesis.
+
+
+
 
