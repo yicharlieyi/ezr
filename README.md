@@ -67,3 +67,8 @@ Run the experiment:
     
 To run the test cases:
     pytest test_experiment.py 
+
+
+### The rq.sh Results
+<img width="817" alt="Screen Shot 2024-09-19 at 12 33 52 AM" src="https://github.com/user-attachments/assets/86b95bdb-520d-4ff3-863c-a95ebafd6db6">
+
