@@ -6,7 +6,7 @@ from ezr import the, DATA, csv, dot
 def prepared_data():
     # Create a DATA instance and populate it as needed for the test
     d = DATA()
-    d.adds(csv('data/optimize/config/SS-H.csv'))
+    d.adds(csv('/workspaces/ezr/data/optimize/config/SS-H.csv'))
     return d
 
 # test if the chebyshevs().rows[0] return the top item in that sort
